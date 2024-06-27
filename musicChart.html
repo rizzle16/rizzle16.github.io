@@ -1,13 +1,23 @@
 <html>
   <head>
     <title>Music Chart</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   </head>
   <body>
     <center>
     <h1>My Favorite Tyler,The Creator Songs</h1>
+      <div id= "plot"></div>
     <script>
       console.log("This is from our internal JS");
-      
+      let songNames = ["435","MASSA","PEACH FUZZ"];
+      let streams = ["4741153","3768629","2960327"];
+      let trace = {
+        x: songNames,
+        y: streams,
+        type: 'bar'
+
+        
+      };
     </script>
       <a href="index.html"> HomePage</a>
     </center>
