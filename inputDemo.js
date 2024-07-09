@@ -5,5 +5,5 @@ function outputDemo()
   var output= document.getElementById("myText").value;
 
   console.log(output);
-  
+  alert(output);
 }
