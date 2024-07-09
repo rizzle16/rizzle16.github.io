@@ -7,5 +7,5 @@ function outputDemo()
   console.log(output);
   alert(output);
 
-  document.getElementById("output").unnerHTML = "You entered: " + output;
+  document.getElementById("output").innerHTML = "You entered: " + output;
 }
