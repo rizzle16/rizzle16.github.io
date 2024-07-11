@@ -1,6 +1,6 @@
 console.log("JS File was loaded");
 
-// 35.217665 N, 80,831473 W ->
+// 35.217665 N, 80,831473 W 
 
 let map = L.map('map',{
     center:[35.2176665, -80.831473],
@@ -13,5 +13,5 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
  L.marker([35.2176665, -80.831473]).addTo(map)
-    .bindPopup('Location:<br> Centeral Piedmont Campus')
+    .bindPopup('Location:<br> Central Piedmont Campus')
     .openPopup();
