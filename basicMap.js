@@ -13,5 +13,5 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
  L.marker([ 35.217665, -80,831473]).addTo(map)
-    .bindPopup('A pretty CSS popup.<br> Easily customizable.')
+    .bindPopup('Location:<br> Centeral Piedmount Campus')
     .openPopup();
