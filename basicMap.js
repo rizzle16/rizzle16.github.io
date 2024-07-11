@@ -18,5 +18,5 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
  }
           )
      .addTo(map)
-    .bindPopup("Hello from CPCC!")
+    .bindPopup("<h2>Hello from CPCC!</h2><hr>")
     .openPopup();
