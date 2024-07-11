@@ -14,8 +14,9 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
  L.marker([35.2176665, -80.831473],{ 
          
-         title: "Central Piedmont Campus")
+         title: "Central Piedmont Campus"
  }
+          )
      .addTo(map)
     .bindPopup("Hello from CPCC!")
     .openPopup();
