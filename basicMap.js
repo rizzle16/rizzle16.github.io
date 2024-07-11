@@ -12,6 +12,10 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
- L.marker([35.2176665, -80.831473]).addTo(map)
-    .bindPopup('Location:<br> Central Piedmont Campus')
+ L.marker([35.2176665, -80.831473],{ 
+         
+         title: "Central Piedmont Campus")
+ }
+     .addTo(map)
+    .bindPopup("Hello from CPCC")
     .openPopup();
