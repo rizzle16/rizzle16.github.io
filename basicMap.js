@@ -18,5 +18,5 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
  }
           )
      .addTo(map)
-    .bindPopup("<h2>Hello from CPCC!</h2><hr>")
+    .bindPopup("<h2>Hello from CPCC!</h2><hr><iframe width="560" height="315" src="https://www.youtube.com/embed/SIOicrto1yw?si=ydhtED6ltmISfb0R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>")"
     .openPopup();
