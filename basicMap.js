@@ -1,5 +1,7 @@
 console.log("JS File was loaded");
-var map = L.map('map').setView([51.505, -0.09], 13);
+
+// 35.217665 N, 80,831473 W ->
+var map = L.map('map').setView([35.217665, -80,831473], 13);
 
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
