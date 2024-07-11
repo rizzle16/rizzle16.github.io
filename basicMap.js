@@ -4,7 +4,7 @@ console.log("JS File was loaded");
 
 let map = L.map('map',{
     center:[35.2176665, -80,831473],
-    zoom: 12
+    zoom: 15
 });
 
 
