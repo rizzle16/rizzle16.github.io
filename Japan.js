@@ -19,14 +19,14 @@ var marker = L.marker([35.652832, 139.839478],
          
          title: "Japan"
  }
-                     ).addTo(map)
+                     ).addTo(map);
                      
 
 
 L.circle([35.6586,  139.7454], {
       fillColor:'teal',
-      color: "black
+      color: "black",
           radius: 100
 
         
-} )
+} ).addTo(map);
