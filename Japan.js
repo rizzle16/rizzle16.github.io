@@ -8,15 +8,25 @@ let map = L.map('map',{
     zoom: 15
 });
 
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+            {
+                maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
 
-<leaflet-map latitude="35.652832" longitude="139.839478" zoom="5" max-zoom="6">
+var marker = L.marker([35.652832, 139.839478],
+                     { 
+         
+         title: "Japan"
+ }
+                     ).addTo(map
+                     
 
-    <leaflet-tilelayer 
-        url="https://stendhalgame.org/map/3/{z}-{x}-{y}.png"
-        min-zoom="2" max-zoom="6" noWrap>
 
-            Map source: <a href="https://stendhalgame.org">Stendhal MMORPG</a>
+L.circle([35.6586,  139.7454], {
+      fillColor:'teal',
+      color: "black
+          radius: 100
 
-    </leaflet-tilelayer>
-
-</leaflet-map>
+        
+} )
