@@ -26,7 +26,7 @@ var marker = L.marker([35.652832, 139.839478],
 L.circle([35.6586,  139.7454], {
       fillColor:'teal',
       color: "black",
-          radius: 100
+          radius: 1000
 
         
 } ).addTo(map);
