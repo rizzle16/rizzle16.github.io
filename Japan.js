@@ -20,6 +20,7 @@ var marker = L.marker([35.652832, 139.839478],
          
          title: "Japan"
  }
-                     ).addTo(map);.openPopup();
+                     ).addTo(map
+                     .openPopup();
 
 
