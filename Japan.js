@@ -9,18 +9,14 @@ let map = L.map('map',{
 });
 
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-            {
-                maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
+<leaflet-map latitude="35.652832" longitude="139.839478" zoom="5" max-zoom="6">
 
-var marker = L.marker([35.652832, 139.839478],
-                     { 
-         
-         title: "Japan"
- }
-                     ).addTo(map
-                     .openPopup();
+    <leaflet-tilelayer 
+        url="https://stendhalgame.org/map/3/{z}-{x}-{y}.png"
+        min-zoom="2" max-zoom="6" noWrap>
 
+            Map source: <a href="https://stendhalgame.org">Stendhal MMORPG</a>
 
+    </leaflet-tilelayer>
+
+</leaflet-map>
